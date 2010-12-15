@@ -1,0 +1,14 @@
+* README *
+This collection of scripts is used to make administration of Google Apps domains a bit easier.  Below is a listing of the utility scripts and their intended purpose.
+
+docs_permission_audit.py:  This script lists out all of the documents that are stored in a given Google Apps domain and lists the users (and access rights) of each user that has access.
+
+group_blast.py:  This script allows groups to be defined based upon entries in a CSV file.  It can be time consuming to manually enter group members in the Google Apps control panel; this script saves administrators time.
+
+list_nicknames.py:  This script displays the nicknames for each user in a specified Google Apps domain.
+
+list_users.py:  This script displays a listing of all users in a Google Apps doamin.
+
+provisioning_postini_from_gapps_accounts.py:  There is no way to provision standalone Postini users from a Google Apps domain. This script builds up a batch file that adds users to Postini and associates any nickname they have as an alias in Postini.
+
+retrieving_user_calendars.py:  This script will list all of the calendars to which a user has been given access.  This information is not always clear to end-users.
